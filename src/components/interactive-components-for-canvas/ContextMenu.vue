@@ -8,7 +8,7 @@
 <button id="KeepDistance" @click="GenerateButtonEvent" v-if="menuOfLine && needSwitchDistributionModeButton">{{ keepDistanceButtonText}}</button>
 <button id="Copy" @click="GenerateButtonEvent" v-if="!menuOfStage && needCopyButton">Copy</button>
 <button id="CopyAll" @click="GenerateButtonEvent" v-if="menuOfLine && needCopyAllButton">Copy All</button>
-<button id="Past" @click="GenerateButtonEvent" v-if="menuOfStage && needPastButton">Past</button>
+<button id="Past" @click="GenerateButtonEvent" v-if="menuOfStage && needPastButton">Paste</button>
 <!--<button id="Remove" @click="GenerateButtonEvent" v-if="!menuOfStage">Remove</button>
 <button id="RemoveAll" @click="GenerateButtonEvent" v-if="menuOfGroupedShape">Remove All</button>-->
 </div>

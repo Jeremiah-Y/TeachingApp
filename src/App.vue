@@ -9,7 +9,7 @@
   <router-view/>
   
   <div id="menu_button">
-  <img id="button_image" width=100 src="@/assets/exsitu-plus.png"  @click="openMenu">
+  <img id="button_image" width=50 src="@/assets/exsitu-plus.png"  @click="openMenu">
   </div>
 </template>
 <script>
