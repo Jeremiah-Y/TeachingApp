@@ -1,7 +1,7 @@
 <template>
   <div class="introduction">
     <h1>Introduction</h1>
-    <p class="text_for_introduction">The goal of this app is too help you discover two generative theories: Instrumental Interaction and Human-Computer Partnerships.
+    <p class="text_for_introduction">The goal of this app is to help you discover two generative theories: Instrumental Interaction and Human-Computer Partnerships.
       Even if the interactive part is more focused on the first theory, this app should help you understanding 
       the concepts and principles of these theories and how apply them.
     </p>
