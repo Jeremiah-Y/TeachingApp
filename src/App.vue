@@ -9,7 +9,7 @@
   <router-view/>
   
   <div id="menu_button">
-  <img id="button_image" width=50 src="@/assets/exsitu-plus.png"  @click="openMenu">
+  <img id="button_image" width=80 src="@/assets/exsitu-minus.png"  @click="closeMenu">
   </div>
 </template>
 <script>
@@ -18,25 +18,26 @@ export default {
   data(){
     return{
           style: {
-              '--height': '0px',
+              '--height': '35px',
           }
     }
   },
     methods:{
-        openMenu(){
+      openMenu(){
+
+},
+        closeMenu(){
           console.log(document.getElementById("button_image").src)
-          if(JSON.stringify(this.style)!='{"--height":"0px"}'){
-            this.style={'--height': '0px'}
-            document.getElementById("button_image").src=require("@/assets/exsitu-plus.png")
-          }else{
+          if(JSON.stringify(this.style)!='{"--height":"35px"}'){
             this.style={'--height': '35px'}
             document.getElementById("button_image").src=require("@/assets/exsitu-minus.png")
+          }else{
+            this.style={'--height': '0px'}
+            document.getElementById("button_image").src=require("@/assets/exsitu-plus.png")
           }
-        },
-        
-        closeMenu(){
-
         }
+        
+        
     }
 }
 </script>
@@ -59,8 +60,8 @@ export default {
 #menu_button{
   position: absolute;
   top:0;
-  left:calc(100% - 50px);
-  width:50px;
+  left:calc(100% - 80px);
+  width:80px;
   z-index: 2;
 }
 #app {

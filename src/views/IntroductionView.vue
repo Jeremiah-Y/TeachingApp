@@ -3,19 +3,19 @@
     <h1>Introduction</h1>
     <p class="text_for_introduction">The goal of this app is to help you discover two generative theories of interaction: Instrumental Interaction and Human-Computer Partnerships.
       Even if the interactive part is more focused on the first theory, this app should help you understanding 
-      the concepts and principles of these theories and how apply them.
+      the concepts and principles of these theories and how to apply them.
     </p>
-    <p class="text_for_introduction">We will first begin with an observation. Have a look at the follow interactive situation:</p>
-    <p class="text_for_introduction"><strong>You can drag shapes,select them by clicking on them and align the selected shapes
-      trought a button that appear when you right click on the stage.</strong>
+    <p class="text_for_introduction">We will first begin with an observation. Take a look at the following interactive situation:</p>
+    <p class="text_for_introduction"><strong>You can drag shapes, select them by clicking on them and align the selected shapes
+      through a button that appears when you right click on the blank.</strong>
     </p>
     <div id="basic-demo">
     <BasicAlignmentDemo  :height="300" :width="500"></BasicAlignmentDemo>
     </div>
     <p class="text_for_introduction">We can see that there is a <strong>lack of persistence and control</strong>.
       These problems related to alignement is something that can be seen in some graphic design softwares.
-      How improve this command ?
-      We will try to apply 'Instrumental Interaction' and 'Human-Computer Partnerships', two 'generative theories'
+      How to improve this command?
+      We will try to apply 'Instrumental Interaction' and 'Human-Computer Partnerships', two 'Generative Theories of Interaction'
       in order to answer this question. 
     </p>
     <p class="text_for_introduction"> <strong>We tried to apply the principles of these theories in 

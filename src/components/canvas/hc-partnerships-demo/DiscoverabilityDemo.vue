@@ -592,7 +592,7 @@ export default {
     //nb of shapes on the canvas (line excluded), we consider that there is no shape on line:
     this.max_id_figures=this.shapes.length +this.groups.length; 
     //this.max_id_lines=this.groups.length;
-    /*
+
     const image = new window.Image();
     image.src = require("@/assets/ugly_eraser.png");
     // set image only when it is loaded
@@ -603,7 +603,7 @@ export default {
       //this.eraser.offsetX=image.width/2;
       this.eraser.offsetY=0; 
     };
-    */
+  
   },
   methods: {
     changeCursor(cursor){

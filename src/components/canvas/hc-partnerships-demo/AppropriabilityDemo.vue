@@ -2,10 +2,10 @@
 
 <div @click="HideContextMenu" id="AppropriabilityDemo"
     @mousedown="updateNaration(this.groups[0])">
-<!--
+
   <ToolBar :height="100" :width="400"
   @need_new_shape="createNewShape" @eraser_is_selected="switchEraseMode"></ToolBar>
-  -->
+
   <v-stage
     ref="stage"
     id="stage"
