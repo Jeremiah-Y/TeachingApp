@@ -19,6 +19,7 @@ export default {
     return{
           style: {
               '--height': '35px',
+              
           }
     }
   },
@@ -46,7 +47,7 @@ export default {
 #main_menu{
   height: var(--height); 
   width: 100%; /* 0 width - change this with JavaScript */
-  position: relative; /* Stay in place */
+  position: fixed; /* Stay in place */
   z-index: 1; /* Stay on top */
   top: 0;
   left: 0;
@@ -58,7 +59,7 @@ export default {
   z-index: 1;
 }
 #menu_button{
-  position: absolute;
+  position: fixed;
   top:0;
   left:calc(100% - 80px);
   width:80px;
