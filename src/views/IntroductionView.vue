@@ -5,12 +5,7 @@
       Even if the interactive part is more focused on the first theory, this app should help you understanding 
       the concepts and principles of these theories and how to apply them.
     </p>
-<p>
-  <input type="text" id="input" 
-        size="10" value="text to be edited"
-       @keyup.enter="updateText"
-  >text to be edited
-</p>
+
 
     <p class="text_for_introduction">We will first begin with an observation. Take a look at the following interactive situation:</p>
     <p class="text_for_introduction"><strong>You can drag shapes, select them by clicking on them and align the selected shapes
