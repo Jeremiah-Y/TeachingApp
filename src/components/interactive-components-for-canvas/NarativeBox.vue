@@ -22,7 +22,7 @@ export default {
 }
 #box{
   position:absolute;
-  height:500px;
+  height:720px;
   width:400px;
   border: solid;
   overflow-y: scroll;

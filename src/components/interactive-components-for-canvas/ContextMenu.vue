@@ -6,7 +6,7 @@
 <!--<button id="ChangeCenter" @click="GenerateButtonEvent" v-if="!menuOfStage">Change Center</button>-->
 <!--<button id="DetachShape" @click="GenerateButtonEvent" v-if="menuOfGroupedShape">Detach</button>-->
 <button id="KeepDistance" @click="GenerateButtonEvent" v-if="menuOfLine && needSwitchDistributionModeButton">{{ keepDistanceButtonText}}</button>
-<button id="Copy" @click="GenerateButtonEvent" v-if="!menuOfStage && needCopyButton">Copy</button>
+<button id="Copy" @click="GenerateButtonEvent" v-if="!menuOfStage && needCopyButton">Copy Stickyline</button>
 <button id="CopyAll" @click="GenerateButtonEvent" v-if="menuOfLine && needCopyAllButton">Copy All</button>
 <button id="Past" @click="GenerateButtonEvent" v-if="menuOfStage && needPastButton">Paste</button>
 <!--<button id="Remove" @click="GenerateButtonEvent" v-if="!menuOfStage">Remove</button>
@@ -17,6 +17,7 @@
 
 export default {
     props: {
+      
         //displayMenu: String,
         ConcernedShape: Object, //Target object (where user right click to make the context menu appear)
         CopiedShape: Object, //Copied object (if Copy or CopyAll button is selected)

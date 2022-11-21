@@ -223,6 +223,10 @@ export default {
           document.getElementById("align_button").style.display="none"
         }
         
+
+
+
+        
     }
 };
 </script>

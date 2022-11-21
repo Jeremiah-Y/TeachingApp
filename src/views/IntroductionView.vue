@@ -1,4 +1,6 @@
 <template>
+
+  
   <div class="introduction">
     <h1>Introduction</h1>
     <p class="text_for_introduction">The goal of this app is to help you discover two generative theories of interaction: Instrumental Interaction and Human-Computer Partnerships.
@@ -67,11 +69,11 @@
       </tr>
       <tr>
         <th>
-          Reify a command in a first-class object for the interface, in a digital tool that the user can manipulate
+          Reify a command in a first-class object for the interface, in a digital tool that the user can manipulate directly
         </th>
         <th>
           Digital instrument should have the possibility to be used on different types of object.
-          It could also reify futher commands.
+          It could also reify further commands.
         </th>
         <th>
           Possibility for the user to use again a previous process (Input Reuse) or its result (Output Reuse) 
@@ -296,6 +298,7 @@ export default {
   }
 }
 </script>
+
 <style>
 #basic-demo{
   border:1px solid black;

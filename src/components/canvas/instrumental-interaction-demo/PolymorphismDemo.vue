@@ -163,7 +163,7 @@
   </v-stage>
   
   <input type="text" id="input1" 
-        size="10" value="a text"
+        size="10" value="the logo"
        @keyup.enter="updateText"
        >
   </div>
@@ -447,7 +447,7 @@ export default {
       */
       
         {
-            text: 'A text',
+            text: 'the logo',
             rotation: 0,
             x: 150,
             y: 190,           

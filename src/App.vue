@@ -66,6 +66,8 @@ export default {
   z-index: 2;
 }
 #app {
+  padding: 50px 20px;
+  
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
