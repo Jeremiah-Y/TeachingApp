@@ -27,7 +27,7 @@
           <div id="reusedemo">
           <ReuseDemo :height="height" :width="width" @explain="addExplanation"></ReuseDemo>
           </div>
-          <p class="caption">Reuse Stickyline to align another group of objects (right-click,copy and past)</p>
+          <p class="caption">Reuse Stickyline to align another group of objects (right-click,copy and paste)</p>
         </td>
       </tr>
       <tr>
@@ -42,13 +42,13 @@
           <div id="polymorphismSubstrateDemo">
           <PolymorphismSubstrateDemo :height="height" :width="width" @explain="addExplanation"></PolymorphismSubstrateDemo>
           </div>
-          <p class="caption">Stickyline preserves both alignment and distribution (or more)</p>
+          <p class="caption">Stickyline preserves both alignment and distribution</p>
         </td>
         <td>
           <div id="reuseSubstrateDemo" >
           <ReuseSubstrateDemo :height="height" :width="width" @explain="addExplanation"></ReuseSubstrateDemo>
           </div>
-          <p class="caption">Reuse Stickyline to duplicate the aligned objects (right-click,copy and past)</p>
+          <p class="caption">Reuse Stickyline to duplicate the aligned objects (right-click,copy and paste)</p>
         </td>
       </tr>
     </table>

@@ -69,6 +69,8 @@ import DiscoverabilitySubstrateDemo from '@/components/canvas/hc-partnerships-de
 import DiscoverabilityDemo from '@/components/canvas/hc-partnerships-demo/DiscoverabilityDemo.vue'
 
 
+
+
 export default {
   name: 'HCPartnershipsTableView',
   components: {
